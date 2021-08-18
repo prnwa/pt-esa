@@ -4,26 +4,43 @@ body {
 
 #title {
   background-image: linear-gradient(to bottom right, #438A5E, #B5EAEA);
-  padding: 3% 12%;
+  padding: 3% 10% 0;
 
 }
-h2 {
+h2 h6 {
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 2rem;
   text-align: center;
 }
 
+
 /* head section */
 .head {
-  padding: 5% 12%;
+  padding: 5% 0;
+}
+.text-head {
+  text-align: right;
+  color: gray;
+  margin-top: 175px;
+  padding-left: 100px;
+  border-bottom: solid;
+  border-image: linear-gradient(to right, #438A5E, #436F8A) 10;
+  border-width: thick;
+}
+
+.logo-esa {
+  width: 400px;
 }
 
 /* about us */
 #about {
   background-color: #EDF6E5;
-
   padding: 3% 12%;
+  text-align: right;
+}
+.about-text {
+  text-align: right;
 }
 
 /* our partner */
@@ -36,6 +53,6 @@ h2 {
 /* contact */
 #contact {
   background-color: #EDF6E5;
-
+  text-align: center;
   padding: 5% 12%;
 }
