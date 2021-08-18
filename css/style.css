@@ -1,0 +1,41 @@
+body {
+  color: #7222831;
+}
+
+#title {
+  background-image: linear-gradient(to bottom right, #438A5E, #B5EAEA);
+  padding: 3% 12%;
+
+}
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* head section */
+.head {
+  padding: 5% 12%;
+}
+
+/* about us */
+#about {
+  background-color: #EDF6E5;
+
+  padding: 3% 12%;
+}
+
+/* our partner */
+#partner {
+
+  background-color: #438A5E;
+  padding: 3% 12%;
+}
+
+/* contact */
+#contact {
+  background-color: #EDF6E5;
+
+  padding: 5% 12%;
+}
