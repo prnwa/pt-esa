@@ -1,19 +1,24 @@
 body {
-  color: #7222831;
+  color: #424642;
 }
 
 #title {
   background-image: linear-gradient(to bottom right, #438A5E, #B5EAEA);
-  padding: 3% 10% 0;
+  padding: 2% 10% 0;
 
 }
-h2 h6 {
+h2 {
   font-family: 'Montserrat';
-  font-weight: 400;
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 2.5rem;
   text-align: center;
 }
-
+/* navigation section */
+.eSa {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 
 /* head section */
 .head {
@@ -55,4 +60,11 @@ h2 h6 {
   background-color: #EDF6E5;
   text-align: center;
   padding: 5% 12%;
+}
+
+
+@media (max-width: 996px){
+  .head {
+    position: static;
+  }
 }
