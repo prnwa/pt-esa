@@ -36,7 +36,9 @@ h2 {
 
 .logo-esa {
   width: 400px;
+  margin-right: 50px;
 }
+
 
 /* about us */
 #about {
@@ -67,4 +69,5 @@ h2 {
   .head {
     position: static;
   }
+
 }
